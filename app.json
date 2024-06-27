@@ -1,14 +1,14 @@
 {
   "expo": {
+    
     "name": "disaster-tracking-app-ymca",
     "slug": "disaster-tracking-app-ymca",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./app/assets/DRRlil.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "./app/assets/DRR.png",
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
@@ -16,15 +16,31 @@
     ],
     "ios": {
       "supportsTablet": true
-    },
+        },
     "android": {
+      
+      "versionCode": 3,
+        "config": {
+          "googleMaps": {
+            "apiKey": "AIzaSyDwfyEOHqKFRJ0NWwiB0642WGuOStRbul4"
+          }
+      },
+    
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./app/assets/DRR_128x128.png",
+    
+        "backgroundColor": "#ffffff"      },
+      "package": "com.ymcasl.ymcadisasterappfinal"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./app/assets/DRR.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45f9bd7d-137f-41ba-84c4-d9c32fac18bd"
+      }
     }
+    
   }
+  
 }

@@ -1,0 +1,22 @@
+{
+  "cli": {
+    "version": ">= 3.12.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath":"/Users/imo-tech/Downloads/pc-api-7728686821621332058-472-4a727f79609a.json"
+      }
+    }
+  }
+}
